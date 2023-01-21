@@ -1,0 +1,11 @@
+﻿################################################################################
+# This .gitignore file was automatically created by Microsoft(R) Visual Studio.
+################################################################################
+
+/Livros/obj/Debug/net6.0/project.razor.json
+/Livros/.vs/Livros/FileContentIndex/00fed75a-e468-4b1c-a3f4-d39cc23659a1.vsidx
+*.vsidx
+/Livros/.vs/Livros/FileContentIndex/48f1fffe-c6bd-40b6-9cc0-c7b35aff9d21.vsidx
+/Livros/.vs/Livros/FileContentIndex/e1cdf07a-2844-491d-bb63-3ef19e2eb2cc.vsidx
+/Livros/.vs/Livros/v17/.suo
+/Livros/appsettings.json	
