@@ -94,7 +94,7 @@ namespace Livros.Controllers
             };
             var result = await _userManager.CreateAsync(user, model.Password);
             if (!result.Succeeded)
-                return StatusCode(StatusCodes.Status500InternalServerError, new Response { Status = "Error", Message = "Senha inválida. Verifique os detalhes e tente novamente." });
+                return StatusCode(StatusCodes.Status500InternalServerError, new Response { Status = "Error", Message = "Sua senha deve ser alfanumérica e conter acima de 8 caracteres." });
 
             if (!await _roleManager.RoleExistsAsync(UserRoles.Admin))
                 await _roleManager.CreateAsync(new IdentityRole(UserRoles.Admin));
